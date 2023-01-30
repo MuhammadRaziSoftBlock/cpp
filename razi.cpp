@@ -7,7 +7,6 @@ public:
     int salary, perHour;
     void getInfo()
     {
-
         cout << "Enter Salary Per Hour :";
         cin >> salary;
         cout << "Enter Hour inn a Day :";
