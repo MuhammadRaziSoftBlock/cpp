@@ -4,27 +4,27 @@ using namespace std;
 class Employee
 {
 public:
-    int Salary, perHour;
+    int salary, perHour;
     void getInfo()
     {
 
         cout << "Enter Salary Per Hour :";
-        cin >> Salary;
+        cin >> salary;
         cout << "Enter Hour inn a Day :";
         cin >> perHour;
     }
     void addSal()
     {
-        if (Salary < 500)
+        if (salary < 500)
         {
-            cout << "Salary is :" << Salary + 10;
+            cout << "Salary is :" << salary + 10;
         }
     }
     void addWork()
     {
         if (perHour > 6)
         {
-            cout << "Salary is :" << Salary + 5;
+            cout << "Salary is :" << salary + 5;
         }
     }
 };
