@@ -9,7 +9,7 @@ public:
     {
         cout << "Enter Salary Per Hour :";
         cin >> salary;
-        cout << "Enter Hour inn a Day :";
+        cout << "Enter Hour in a Day :";
         cin >> perHour;
     }
     void addSal()
